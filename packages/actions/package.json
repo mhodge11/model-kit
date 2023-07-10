@@ -1,0 +1,27 @@
+{
+  "name": "@model-kit/actions",
+  "version": "1.0.0",
+  "description": "A collection of actions for use with the ModelKit framework.",
+  "author": "Micah Hodge <micahhodgeutk@icloud.com> (https://github.com/mhodge11)",
+  "license": "BSD-3-Clause",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "directories": {
+    "lib": "dist",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest -w=1 --watchAll=false --coverage --forceExit --detectOpenHandles --passWithNoTests"
+  },
+  "dependencies": {
+    "@model-kit/utils": "^1.0.0"
+  },
+  "devDependencies": {}
+}
